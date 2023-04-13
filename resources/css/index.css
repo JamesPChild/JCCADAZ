@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #0eb4b9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li{
+    display: inline;
+    padding: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+a.red{
+    color: red;
+}
+
+.banner {
+    background-color: #59eebc;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+}
