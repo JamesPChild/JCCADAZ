@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #318a8d;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li{
+    display: inline;
+    padding: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+a.red{
+    color: rgb(109, 33, 33);
+}
+
+.banner {
+    background-color: #89ceb7;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.foot {
+    background-color: #9ad1d2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.foot li{
+    display: inline;
+    padding: 20px;
+}

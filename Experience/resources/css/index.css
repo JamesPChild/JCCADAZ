@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #0eb4b9;
+    background-color: #318d3c;
     position: fixed;
     top: 0;
     width: 100%;
@@ -16,14 +16,26 @@
 }
 
 a.red{
-    color: red;
+    color: rgb(109, 33, 33);
 }
 
 .banner {
-    background-color: #59eebc;
+    background-color: #89ceb7;
     font-family:'Times New Roman', Times, serif;
     color: black;
     margin-top: 50px;
     text-align: center;
     padding: 100px 0;
+}
+
+.foot {
+    background-color: #9ad2a5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.foot li{
+    display: inline;
+    padding: 20px;
 }
