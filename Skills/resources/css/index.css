@@ -19,16 +19,30 @@ a.red{
     color: rgb(109, 33, 33);
 }
 
+.body {
+    padding-top: 60px;
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
 .banner {
     background-color: #89ceb7;
     font-family:'Times New Roman', Times, serif;
     color: black;
-    margin-top: 50px;
+    margin-top: 20px;
     text-align: center;
-    padding: 100px 0;
+    padding: 20px 0;
+}
+
+.paragraph {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 24 px;
+    text-indent: 2em;
 }
 
 .foot {
+    margin-top: auto;
     background-color: #9ad1d2;
     position: fixed;
     bottom: 0;
