@@ -22,6 +22,8 @@ a.red{
 .body {
     padding-top: 60px;
     font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
     padding-bottom: 60px;
 }
 
@@ -41,13 +43,9 @@ a.red{
     text-indent: 2em;
 }
 
-.coolfeature {
-
-}
-
 .foot {
     margin-top: auto;
-    background-color: #9ad1d2;
+    background-color: #318a8d;;
     position: fixed;
     bottom: 0;
     width: 100%;

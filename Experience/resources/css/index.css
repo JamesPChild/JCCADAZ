@@ -26,9 +26,9 @@ a.red{
 }
 
 .banner {
-    background-color: #89ceb7;
+    background-color: rgb(93, 147, 127);
     font-family:'Times New Roman', Times, serif;
-    color: black;
+    color: rgb(47, 88, 118);
     margin-top: 20px;
     text-align: center;
     padding: 20px 0;
@@ -43,7 +43,7 @@ a.red{
 
 .foot {
     margin-top: auto;
-    background-color: #9ad1d2;
+    background-color: #318a8d;;
     position: fixed;
     bottom: 0;
     width: 100%;
