@@ -19,6 +19,15 @@ a.red{
     color: rgb(109, 33, 33);
 }
 
+div.box{
+    background: linear-gradient(to bottom, #ffffff, #46a290);
+    border: 2px solid #ccc;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
 .body {
     padding-top: 60px;
     font-size: 20px;
@@ -40,6 +49,7 @@ a.red{
     margin-left: 50px;
     margin-right: 50px;
     font-size: 24 px;
+    line-height: 1.5em;
     text-indent: 2em;
 }
 
