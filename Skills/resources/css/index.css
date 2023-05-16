@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #318a8d;
+    background-color: #8d3131;
     position: fixed;
     top: 0;
     width: 100%;
@@ -28,9 +28,9 @@ a.red{
 }
 
 .banner {
-    background-color: rgb(93, 147, 127);
+    background-color: rgb(147, 93, 93);
     font-family:'Times New Roman', Times, serif;
-    color: rgb(47, 88, 118);
+    color: rgb(118, 48, 47);
     margin-top: 20px;
     text-align: center;
     padding: 20px 0;
@@ -49,7 +49,7 @@ a.red{
 
 .foot {
     margin-top: auto;
-    background-color: #318a8d;;
+    background-color: #8d3131;;
     position: fixed;
     bottom: 0;
     width: 100%;
