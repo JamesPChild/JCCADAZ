@@ -44,6 +44,22 @@ a.red{
     border: 1px solid #ccc;
 }
 
+#bean_machine {
+    float: right;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #ccc;
+}
+
+#bsa {
+    float: right;
+    margin-left: 10px;
+    width: 300px;
+    height: 300px;
+}
+
 .paragraph {
     margin-left: 50px;
     margin-right: 50px;
@@ -53,6 +69,14 @@ a.red{
 
 .horizontal-line {
     border-bottom: 2px solid black;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+ }
+
+ .broad-line {
+    border-bottom: 4px solid black;
     margin-bottom: 30px;
     margin-top: 30px;
     margin-left: 0px;

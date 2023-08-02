@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #37acff;
+    background-color: #8d3131;
     position: fixed;
     top: 0;
     width: 100%;
@@ -16,30 +16,21 @@
 }
 
 a.red{
-    color: rgb(198, 16, 16);
-}
-
-div.box{
-    background: linear-gradient(to bottom, #ffffff, #13469f);
-    border: 2px solid #ccc;
-    width: fit-content;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color: rgb(109, 33, 33);
 }
 
 .body {
-    padding-top: 60px;
-    font-size: 20px;
     margin-left: 50px;
     margin-right: 50px;
+    padding-top: 60px;
+    font-size: 20px;
     padding-bottom: 60px;
 }
 
 .banner {
-    background-color: rgb(10, 146, 204);
+    background-color: rgb(147, 93, 93);
     font-family:'Times New Roman', Times, serif;
-    color: rgb(40, 20, 173);
+    color: rgb(118, 48, 47);
     margin-top: 20px;
     text-align: center;
     padding: 20px 0;
@@ -47,15 +38,18 @@ div.box{
 
 .paragraph {
     margin-left: 50px;
-    margin-right: 750px;
+    margin-right: 50px;
     font-size: 24 px;
-    line-height: 1.5em;
     text-indent: 2em;
 }
 
+.horizontal-line {
+    border-bottom: 2px solid black;
+ }
+
 .foot {
     margin-top: auto;
-    background-color: #37acff;;
+    background-color: #8d3131;;
     position: fixed;
     bottom: 0;
     width: 100%;
