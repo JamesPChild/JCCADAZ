@@ -48,8 +48,6 @@ div.box{
     white-space: wrap;
     padding-top: 20px;
     font-size: 20px;
-    /* margin-left: 2%;
-    margin-right: 2%; */
     padding-bottom: 60px;
 }
 
@@ -78,11 +76,11 @@ div.box{
     margin-right: 30%;
     margin-bottom: 60px;
     background-color: #ffffff;
-    border-radius: 20px;
+    border-radius: 20px transparent;
 }
 
 .intro-paragraph-header {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
     margin: 10px auto;
     line-height: 1.5em;
