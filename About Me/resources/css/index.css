@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
- .navbar {
+.navbar {
     background-color: #ffeded;
     position: -webkit-sticky;
     position: sticky;
     z-index: 999999;
     top: 0px;
     padding: 5px;
+    width: 100%
 }
 
 .navbar li{
@@ -29,7 +30,7 @@ div.box{
     background: #000000;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
-    width: 95%;
+    width: 90%;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     font-size: 50px;
     font-family: 'Sacramento';
@@ -39,11 +40,16 @@ div.box{
 }
 
 .body {
+    background-image: url(../images/JCCADAZ\ Graphics.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    white-space: wrap;
     padding-top: 20px;
     font-size: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    /* margin-left: 2%;
+    margin-right: 2%; */
     padding-bottom: 60px;
 }
 
@@ -62,41 +68,58 @@ div.box{
     border-radius: 20px;
     margin-top: 20px;
     margin-left: 40px;
+    margin-bottom: 20px;
     float: left;
+}
+
+.header_space{
+    margin-top: 80px;
+    margin-left: 32%;
+    margin-right: 18%;
+    margin-bottom: 60px;
+    background-color: #ffffff;
+    border-radius: 20px;
 }
 
 .intro-paragraph-header {
     font-family:Arial, Helvetica, sans-serif;
-    margin-top: 80px;
-    margin-left: 675px;
-    margin-right: 150px;
     font-size: 36px;
+    margin: 10px auto;
     line-height: 1.5em;
     color: #36454F;
-    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    text-shadow: 0 0 2px rgb(0, 0, 0),
+        0 0 2px rgb(0, 0, 0),
+        0 0 2px rgb(0, 0, 0),
+        0 0 2px rgb(0, 0, 0);
 }
+
+.paragraph_space{
+    margin-left: 32%;
+    margin-right: 15%;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
 
 .intro-paragraph {
     font-family:Arial, Helvetica, sans-serif;
-    margin-left: 675px;
-    margin-right: 150px;
-    margin-bottom: 60px;
     font-size: 28px;
     line-height: 1.5em;
-    padding-bottom:20px;
-}
-.paragraph {
-    margin-left: 50px;
-    margin-right: 350px;
-    font-size: 28 px;
-    line-height: 1.5em;
-    padding-bottom:20px;
+    text-shadow: -1px -1px 0 #ffffff,
+     1px -1px 0 #ffffff,
+     -1px 1px 0 #ffffff,
+     1px 1px 0 #ffffff;
 }
 
 .container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
   background-color: rgb(255, 105, 105);
   width: 95%;
+  border-radius: .3rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -106,21 +129,48 @@ div.box{
   margin: 10px;
   padding: 20px;
   border: 2px solid rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: .75rem;
   flex: 1 1 0px;
   font-size: 24px;
 }
 
-.service div{
+.service{
     padding: 20px;
     border: 1px solid #ccc;
     width: 30%;
+    width: 23%;
+    box-shadow: 0 0 10px black inset;
     display: inline;
+    margin: 1em;
 }
 
 .service h3{
     text-shadow: 0 0 2px white, 0 0 2px white, 0 0 2px white, 0 0 2px whitesmoke;
+    width: calc(100%/2 + 40%);
+    height: 4rem;
+    line-height: 2rem;
     display: inline-block;
+}
+
+.service p{
+    overflow: hidden;
+    height: 6rem;
+    line-height: 2rem;
+    display: inline-block;
+}
+
+.bottomstatement{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    font-size: larger;
+    line-height: 1.5em;
+    color: #36454F;
+    text-shadow: 0 0 2px rgb(0, 0, 0),
+        0 0 2px rgb(0, 0, 0),
+        0 0 2px rgb(0, 0, 0),
+        0 0 2px rgb(0, 0, 0);
+
 }
 
 .padding {
@@ -128,7 +178,7 @@ div.box{
  }
 
 .foot {
-     margin: 0 auto;
+    margin: 0 auto;
     background-color: #ff3737;;
     position: fixed;
     height: 100px;
@@ -142,7 +192,7 @@ div.box{
     margin: auto;
     display: inline;
     padding: 20px;
-    font-size: 20 px;
+    font-size: 30px;
     font-family: 'Sacramento';
 }
 

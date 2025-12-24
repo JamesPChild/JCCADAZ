@@ -1,1 +1,1 @@
-# Making my_new_website
+# Persoanl reviews and painting schemes

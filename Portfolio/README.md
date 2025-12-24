@@ -1,1 +1,1 @@
-# Making my_new_website
+# Page for larger projects and examples
