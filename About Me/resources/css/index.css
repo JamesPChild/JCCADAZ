@@ -71,20 +71,22 @@ div.box{
 }
 
 .header_space{
+    display:inline;
     margin-top: 80px;
-    margin-left: 32%;
-    margin-right: 30%;
     margin-bottom: 60px;
-    background-color: #ffffff;
-    border-radius: 20px transparent;
+    margin-left: 28%;
+    margin-right: 28%;
 }
 
 .intro-paragraph-header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 36px;
     margin: 10px auto;
+    margin-left: 30%;
+    margin-right: 30%;
     line-height: 1.5em;
     color: #36454F;
+    background-color: #ffffff;
     text-shadow: 0 0 2px rgb(0, 0, 0),
         0 0 2px rgb(0, 0, 0),
         0 0 2px rgb(0, 0, 0),
@@ -92,7 +94,8 @@ div.box{
 }
 
 .paragraph_space{
-    margin-left: 32%;
+    margin: 1% auto;
+    margin-left: 30%;
     margin-right: 15%;
     margin-bottom: 60px;
     border-radius: 20px;
@@ -102,7 +105,7 @@ div.box{
 
 .intro-paragraph {
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 1.5em;
     text-shadow: -1px -1px 0 #ffffff,
      1px -1px 0 #ffffff,
