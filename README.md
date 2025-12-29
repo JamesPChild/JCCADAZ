@@ -1,1 +1,1 @@
-# Making this website for my mummy
+Julie Child Color and Design
