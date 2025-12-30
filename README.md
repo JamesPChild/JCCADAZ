@@ -1,1 +1,1 @@
-# Making this website for my mummy
+# JC Color & Design website
