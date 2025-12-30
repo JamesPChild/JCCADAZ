@@ -1,1 +1,1 @@
-# JC Color & Design website
+# Julie Child Color and Design
