@@ -194,8 +194,8 @@ div.box p{
 .image-bordered {
     margin-top: 1%;
     border: 5px solid rgb(63, 50, 50);
-    width: 480px;
-    height: 480px;
+    width: 600px;
+    height: 600px;
     border-radius: 20px;
 }
 
@@ -342,15 +342,28 @@ h1{
 }
 
 .step{
+    background-image: url(../images/white\ flower\ background.png);
+    opacity: 0.8;
+    padding:18px;
+    font-size: x-large;
+    font-weight: 1000;
+        text-shadow: 0 0 1px rgb(255, 255, 255),
+        0 0 1px rgb(255, 255, 255),
+        0 0 1px rgb(255, 255, 255),
+        0 0 1px rgb(255, 255, 255);
+}
+.step:hover{
+    background-image: url(../images/white\ flower\ background.png);
+    opacity: 1;
     padding:18px
 }
 
 .num{
-    width:34px;height:34px;border-radius:12px;
+    width:44px;height:44px;border-radius:12px;
     display:inline-flex; align-items:center; justify-content:center;
     font-weight:900;
-    background: rgba(250, 96, 96, 0.18);
-    border:1px solid rgba(250, 96, 96, 0.35);
+    background: rgba(250, 96, 96, 0.28);
+    border:1px solid rgba(250, 96, 96, 0.45);
     margin-bottom:10px;
 }
 
