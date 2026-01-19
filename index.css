@@ -178,7 +178,6 @@ div.box p{
 .dropdown {
   position: relative;
   float: left;
-  display: inline-block;
 }
 
 .dropbtn {
@@ -222,7 +221,6 @@ div.box p{
 }
 
 .consult-button{
-    display: inline-block;
     float: right; 
 }
 
