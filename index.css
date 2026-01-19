@@ -254,8 +254,13 @@ div.box p{
 }
 
 @media (max-width: 860px){
-    .menu-btn{display:inline-flex; background:transparent; border:1px solid var(--line); color:var(--text);
-    padding:10px 12px; border-radius:12px; font-weight:700}
+    .menu-btn{display:inline-flex;
+        background:transparent;
+        border:1px solid var(--line);
+        color:var(--text);
+        padding:10px 12px;
+        border-radius:12px;
+        font-weight:700}
     .links{display:none}
     .links.open{
         display:flex;
