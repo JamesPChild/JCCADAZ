@@ -246,7 +246,7 @@ div.box p{
     scroll-margin-top: 145px;
     max-width: var(--max);
     margin: auto;
-    background-image: url(/images/JCCADAZ\ Graphics.png);
+    /* background-image: url(/images/JCCADAZ\ Graphics.png); */
 }
 
 .menu-btn{
