@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>JC Color & Design | Color Consulting & Interior Design</title>
-  <link rel="icon" type="image/x-icon" href="./resources/images/Logo.ico">
+  <link rel="icon" type="image/x-icon" href="./images/Logo.ico">
   <meta name="description" content="Color consulting and interior/exterior design support for homes, businesses, churches, and HOAs. In-person Phoenix metro and virtual consultations available." />
 
   <!-- Open Graph -->
   <meta property="og:title" content="JC Color & Design" />
   <meta property="og:description" content="Color decisions made easy—inside and out. In-person and virtual consultations." />
   <meta property="og:type" content="website" />
-  <link rel="stylesheet" href="./resources/css/index.css">
+  <link rel="stylesheet" href="./index.css">
     
 </head>
 
@@ -19,19 +19,19 @@
   <header class="nav">
     <div class="wrap">
       <div class="nav-inner">
-
-        <div class="banner-left">
+        <div class="nav-item">
           <a class="brand" href="#top" aria-label="JC Color & Design">
             <span class="logo" aria-hidden="true"></span>
             <span>HomePage</span>
-            <nav class="pagelinks" id="navLinks" aria-label="Primary navigation">
-              <!--<a href="old/index.html">Old</a>
-              <a href="Reviews/index.html">Portfolios</a> FOR NEW WEBPAGES IF DESIRED-->
-            </nav>
+            <!-- <ul class="pagelinks" id="navLinks" aria-label="Primary navigation">
+              <li><a class="active" href="#home">Home</a></li>
+              <li><a href="#news">News</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#about">About</a></li>
+            </ul> -->
           </a>
         </div>
-
-        <div class="banner-center">
+        <div class="nav-item">
           <div class="banner">
             <div class = "box">
               <h1>JC Color & Design</h1>
@@ -39,17 +39,20 @@
             </div>
           </div>
         </div>
-
-        <div class="banner-right">
-          <nav class="links" id="navLinks" aria-label="Primary navigation">
-            <!-- <a href="#services">Services</a> -->
-            <a href="#portfolio">Portfolio</a>
-            <a href="#reviews">Reviews</a>
-            <!-- <a href="#about">About</a> -->
+        <div class="nav-item">
+          <div class="dropdown">
+            <button class="dropbtn">Sections</button>
+            <div class="dropdown-content">
+              <a href="#process">Process</a>
+              <a href="#faq">FAQs</a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="#reviews">Reviews</a>
+            </div>
+          </div>
+          <div class="consult-button">
             <a class="cta" href="#contact">Book a Consult</a>
-          </nav>
+          </div>
         </div>
-
       </div>
     </div>
   </header>
@@ -60,7 +63,7 @@
         <div class="hero-grid">
           <div>
             <div class="badge">In-person, from Phoenix metro area to Prescott/Quad-City area - Virtual consultations also available</div>
-            <img id = "julie-me" class="image-bordered" src = "./resources/images/Julie Child Selfie.jpg" alt ="";>
+            <img id = "julie-me" class="image-bordered" src = "./images/Julie Child Selfie.jpg" alt ="";>
             <h1>Color decisions made easy —</h1>
             <h1>inside and out.</h1>
             <p class="sub">
@@ -79,10 +82,10 @@
               Let me help you choose your perfect color palette.
             </p>
 
-            <div class="hero-actions">
+            <!-- <div class="hero-actions">
               <a class="cta" href="#contact">Book a Consultation</a>
               <a class="ghost" href="#portfolio">View Portfolio</a>
-            </div>
+            </div> -->
           </div>
 
           <aside class="card hero-card" aria-label="Quick facts">
@@ -136,12 +139,49 @@
             <h3>Consultation</h3>
             <p>On-site or virtual session to evaluate lighting, undertones, and overall cohesion.</p>
           </div>
-          <div class="card step">
+          <div class="card step" >
             <div class="num">3</div>
             <h3>Deliverables</h3>
             <p>A painter-ready palette with notes, sheens, placement guidance, and next steps.</p>
           </div>
+          <div class="card step">
+            <div class="num">4</div>
+            <h3>Initial Contact</h3>
+            <p>Once you make a request, or a paint contractor sends me your information, we will share goals, photos, constraints, and what’s staying (tile, counters, flooring, roof).</p>
+          </div>
+          <div class="card step">
+            <div class="num">5</div>
+            <h3>Consultation</h3>
+            <p>On-site or virtual session to evaluate lighting, undertones, and overall cohesion.</p>
+          </div>
+          <div class="card step">
+            <div class="num">6</div>
+            <h3>Deliverables</h3>
+            <p>A painter-ready palette with notes, sheens, placement guidance, and next steps.</p>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="wrap">
+        <h2>FAQ</h2>
+        <p class="lead">Answering the questions that usually come up before booking.</p>
+
+        <details>
+          <summary>Do you offer virtual consultations?</summary>
+          <p>Yes. Virtual works great when you can share photos/videos and we can review lighting and fixed finishes together.</p>
+        </details>
+
+        <details>
+          <summary>Do you help with materials (tile, floors, counters)?</summary>
+          <p>Absolutely. Coordinating undertones across finishes is one of the biggest value-adds.</p>
+        </details>
+
+        <details>
+          <summary>Which paint brands do you work with?</summary>
+          <p>I can work with major brands and translate palettes when needed for HOAs and repaint requirements.</p>
+        </details>
       </div>
     </section>
 
@@ -183,28 +223,6 @@
       </div>
     </section>
 
-    <section class="section" id="faq">
-      <div class="wrap">
-        <h2>FAQ</h2>
-        <p class="lead">Answering the questions that usually come up before booking.</p>
-
-        <details>
-          <summary>Do you offer virtual consultations?</summary>
-          <p>Yes. Virtual works great when you can share photos/videos and we can review lighting and fixed finishes together.</p>
-        </details>
-
-        <details>
-          <summary>Do you help with materials (tile, floors, counters)?</summary>
-          <p>Absolutely. Coordinating undertones across finishes is one of the biggest value-adds.</p>
-        </details>
-
-        <details>
-          <summary>Which paint brands do you work with?</summary>
-          <p>I can work with major brands and translate palettes when needed for HOAs and repaint requirements.</p>
-        </details>
-      </div>
-    </section>
-
     <section class="section" id="contact">
       <div class="wrap">
         <h2>Contact</h2>
@@ -234,10 +252,10 @@
               <a class="ghost" href="tel:4802412540">Call: (480) 241-2540</a>
             </div>
 
-            <p class="note">
+            <!-- <p class="note">
               Replace the email address in the script below with the business email. For a real form (no email client),
               connect this to Formspree, Netlify Forms, or a simple backend.
-            </p>
+            </p> -->
           </form>
 
           <div class="card tile">
@@ -249,7 +267,7 @@
               <a href="https://www.linkedin.com/in/julie-child-b13467389/" aria-label="LinkedIn">LinkedIn</a> •
               <a href="https://www.facebook.com/julie.child.100" aria-label="Facebook">Facebook</a>
             </p>
-            <p class="note">Update these links and add a Google Business Profile link for better local SEO.</p>
+            <!-- <p class="note">Update these links and add a Google Business Profile link for better local SEO.</p> -->
           </div>
         </div>
       </div>

@@ -38,11 +38,6 @@ a:focus, button:focus, input:focus, textarea:focus{
     border-color:rgba(250, 96, 96, 0.8)
 }
 
-.wrap{
-    margin:0 auto;
-    padding:0 20px
-}
-
 .nav{
     position:sticky;
     top:0;
@@ -52,12 +47,25 @@ a:focus, button:focus, input:focus, textarea:focus{
     border-bottom:1px solid var(--line);
 }
 
+.wrap{
+    margin:0 auto;
+    padding:0 20px
+}
+
 .nav-inner{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
+    display: flex;
     padding:14px 0;
-    gap:14px
+    gap:14px;
+    align-items: center;
+}
+
+.nav-item:not(:nth-child(2)) {
+  flex-basis: 0%;
+  flex-grow: 1;
+}
+
+.nav-item:last-child {
+  text-align: right;
 }
 
 .brand{
@@ -76,18 +84,47 @@ a:focus, button:focus, input:focus, textarea:focus{
     box-shadow: 0 10px 26px rgba(96,165,250,.18);
 }
 
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 130px;
+  background-color: #f1f1f1;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #ff30308a;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555555;
+  color: white;
+} */
+
 .banner {
+    left: 50%;
     font-family:Arial, Helvetica, sans-serif;
     color: rgb(173, 20, 20);
-    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 div.box{
     background: #000000;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
-    align-items:center;
-    justify-content: center;
+    text-align: center;
     width: 750px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
@@ -108,15 +145,15 @@ div.box p{
 }
 
 .links{
-    display:flex;
+    display: flex;
+    place-items: center;
     gap:18px;
-    align-items:center;
 }
 
 .links a{
     color:var(--light-text);
     font-weight:600;
-    font-size:18px
+    font-size:18px;
 }
 .links a:hover{
     color:var(--text)
@@ -138,20 +175,80 @@ div.box p{
 } 
     FOR NEW WEBPAGES IF DESIRED*/
 
+.dropdown {
+  position: relative;
+  float: left;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #af4c4c;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  font-size: 20px;
+  min-width: 150px;
+  border-radius: 10%;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #da6060;
+}
+
+.consult-button{
+    display: inline-block;
+    float: right; 
+}
+
 .cta{
     display:inline-flex;
+    text-align: right;
     align-items:center;
     justify-content:center;
     padding:10px 14px; border-radius:999px; font-weight:700; font-size:14px;
     background: linear-gradient(135deg, rgba(250, 96, 96, 0.95), rgba(250, 139, 154, 0.95));
     box-shadow: var(--shadow);
     border:0;
+    color:var(--light-text);
+    font-weight:600;
+    font-size:18px;
+}
+
+.cta:hover{
+    color:var(--text)
 }
 
 .full_body{
     scroll-margin-top: 145px;
     max-width: var(--max);
     margin: auto;
+    background-image: url(/images/JCCADAZ\ Graphics.png);
 }
 
 .menu-btn{
@@ -229,7 +326,9 @@ h1{
     border-radius:999px;
     font-weight:800;
     font-size:14px;
-    border:1px solid var(--line); color:var(--text); background: rgba(17,24,39,.55);
+    border:1px solid var(--line);
+    color:var(--text);
+    background: rgba(17,24,39,.55);
 }
 .card{
     border:1px solid var(--line);
@@ -334,7 +433,8 @@ h1{
 .steps{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    gap:14px
+    grid-template-rows: repeat(2, 1fr);
+    gap:14px;
 }
 
 @media (max-width: 900px){
@@ -342,7 +442,7 @@ h1{
 }
 
 .step{
-    background-image: url(../images/white\ flower\ background.png);
+    background-image: url(./images/white\ flower\ background.png);
     opacity: 0.8;
     padding:18px;
     font-size: x-large;
@@ -353,22 +453,32 @@ h1{
         0 0 1px rgb(255, 255, 255);
 }
 .step:hover{
-    background-image: url(../images/white\ flower\ background.png);
+    background-image: url(./images/white\ flower\ background.png);
     opacity: 1;
     padding:18px
 }
 
 .num{
     width:44px;height:44px;border-radius:12px;
-    display:inline-flex; align-items:center; justify-content:center;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
     font-weight:900;
     background: rgba(250, 96, 96, 0.28);
     border:1px solid rgba(250, 96, 96, 0.45);
     margin-bottom:10px;
 }
 
-.gallery{display:grid; grid-template-columns: repeat(3, 1fr); gap:12px}
-@media (max-width: 900px){ .gallery{grid-template-columns:1fr} }
+.gallery{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:12px
+}
+
+@media (max-width: 900px){
+    .gallery{grid-template-columns:1fr}
+}
+
 .ph{
     aspect-ratio: 4 / 3;
     border-radius: 18px;
