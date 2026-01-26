@@ -16,7 +16,9 @@
     --font: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
 }
 
-*{box-sizing:border-box}
+*{
+    box-sizing:border-box
+}
 
 html,body{
     margin:0;
